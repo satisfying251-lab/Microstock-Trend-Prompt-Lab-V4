@@ -1,29 +1,26 @@
-MICROSTOCK TREND & PROMPT LAB V4
+MICROSTOCK OPPORTUNITY INTELLIGENCE V5
 
-FOKUS APLIKASI
-- Tidak membuat metadata (judul, deskripsi, keyword).
-- Menyusun instruksi riset web terbaru untuk ChatGPT.
-- Meminta ide visual microstock dan prompt gambar siap generate.
-- Menyimpan prompt di browser perangkat dan ekspor TXT.
-- Tidak membutuhkan API key.
+FOKUS
+- Bukan pembuat metadata.
+- Mencari peluang tema microstock dengan pendekatan demand + persaingan relatif + buyer use-case + diferensiasi + timing.
+- Event radar untuk event/season mendatang.
+- Prompt gambar bahasa Inggris siap generate, negative prompt, variasi kreatif, production plan, dan reject list.
+- Tanpa API key. Brief disalin ke ChatGPT untuk menjalankan pencarian web.
 
-CARA PAKAI
-1. Upload/replace file index.html, sw.js, manifest.webmanifest di root repository GitHub Pages.
-2. Commit perubahan dan tunggu GitHub Pages selesai deploy.
-3. Buka ulang situs di Chrome Android.
-4. Pilih jenis aset, marketplace, fokus tren, gaya visual, dan jumlah ide.
-5. Tekan Buat instruksi riset AI.
-6. Tekan Salin instruksi, buka ChatGPT, lalu tempel dan kirim.
-7. Periksa sumber dan tanggal. Salin prompt yang disukai ke bagian Simpan prompt.
-8. Tempel prompt ke Google Flow atau generator gambar lain.
+CARA UPDATE GITHUB PAGES
+1. Ekstrak ZIP.
+2. Upload/replace tiga file di root repository: index.html, manifest.webmanifest, sw.js.
+3. Commit ke branch main.
+4. Tunggu GitHub Pages selesai deploy, lalu buka ulang situs.
 
-BATASAN TEKNIS JUJUR
-- GitHub Pages adalah hosting statis. Aplikasi ini tidak mempunyai backend, crawler marketplace, atau GPU.
-- Tanpa API key, aplikasi tidak dapat menjalankan AI/research web secara otomatis di dalam halaman. Tombol Buka ChatGPT membuka ChatGPT dan menyalin instruksi (jika izin clipboard tersedia); pengguna tetap perlu menempel dan mengirim.
-- Riset realtime bergantung pada akses pencarian web ChatGPT dan sumber publik yang dapat diakses.
-- Penjualan, download kompetitor, conversion rate, dan data internal marketplace tidak tersedia secara publik secara lengkap. Jangan mengarang angka.
-- Prompt tersimpan di localStorage browser perangkat ini. Menghapus data situs/browser dapat menghapus prompt.
+PENTING TENTANG AKURASI
+- Skor peluang adalah model analitis, bukan statistik penjualan resmi atau jaminan laku.
+- Hasil pencarian marketplace hanya proksi pasokan/kejenuhan; bukan jumlah kompetitor unik atau data download.
+- Brief meminta sumber, URL, tanggal, dan label fakta/indikasi/analisis. Jika data tidak tersedia, ChatGPT harus menulis tidak tersedia.
+- Threshold 10.000 hasil hanyalah petunjuk awal yang disebut dalam materi video yang diberikan pengguna; bukan batas universal. V5 meminta verifikasi konteks dan long-tail phrase.
+- Event sebaiknya direncanakan lebih awal. Patokan 8–12 minggu dapat dipakai sebagai titik awal, bukan aturan mutlak.
+- Tanpa backend/API, halaman statis tidak menjalankan crawler/AI otomatis. ChatGPT melakukan riset setelah brief dikirim.
+- Selalu cek aturan konten AI, model/property release, dan kebijakan tiap marketplace sebelum upload.
 
-KOMPATIBILITAS
-- UI ringan, tidak mengunduh model AI ke OPPO F11 Pro.
-- Prompt disimpan lokal; ekspor TXT untuk cadangan.
+PENYIMPANAN
+Prompt tersimpan berada di localStorage browser perangkat. Ekspor/cadangkan bila diperlukan. Menghapus data situs dapat menghapus prompt tersimpan.
